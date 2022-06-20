@@ -8,9 +8,9 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY ["Safaricom.csproj", "."]
-RUN dotnet restore "./Safaricom.csproj"
+RUN dotnet restore "Safaricom.csproj"
 COPY . .
-WORKDIR "/src/."
+WORKDIR "/src/"
 RUN dotnet build "Safaricom.csproj" -c Release -o /app/build
 
 FROM build AS publish
