@@ -9,7 +9,7 @@ I also wrote kuberenetes deploying sample command on file called kub.yml
 
 
 ## Contributing
-Alazar yilma @yilma4060@gmail.com
+Alazar yilma || yilma4060@gmail.com
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
